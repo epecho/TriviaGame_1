@@ -1,0 +1,31 @@
+<!doctype html>
+<html>
+<header>
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Slab" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/quiz.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+
+    <title>The Matrix Quiz</title>
+</header>
+
+<body>
+    <div id="quizContainer" class="container">
+        <div class="title">Free Your Mind.</div>
+
+        <div id="question" class="question"> This is a question? </div>
+        <label for="option1" class="option"> <input type="radio" name="option" value="1"> <span id="opt1"> Option1 </span> </label>
+        <label for="option2" class="option"> <input type="radio" name="option" value="2"> <span id="opt2"> Option2 </span> </label>
+        <label for="option3" class="option"> <input type="radio" name="option" value="3"> <span id="opt3"> Option3 </span> </label>
+        <label for="option4" class="option"> <input type="radio" name="option" value="4"> <span id="opt4"> Option4 </span> </label>
+
+<!--        <button id="nextButton" class="nextBtn" onclick="loadNextQuestion();"> Next Question </button>-->
+        <button id="nextButton" class="nextBtn"> Next Question </button>
+    </div>
+
+    <div id="result" class="container result" style="display: none;"></div>
+
+    <script src="assets/js/question.js"></script>
+    <script src="assets/js/quiz-scripts.js"></script>
+</body>
+
+</html>
